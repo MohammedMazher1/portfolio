@@ -1,0 +1,22 @@
+{
+    "logo_alt": "logo",
+    "nav": {
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "about_me": "About Me",
+        "contact": "Let's Contact"
+    },
+    "intro": {
+        "greeting": "Hello",
+        "name": "I Am Mohammed Mazhar",
+        "description": "I am a programmer who has a passion for learning and staying up-to-date with the latest technologies. I have experience in [PHP native, Laravel framework, Next.js, React.js, Node.js, database analysis, MySQL], and I am always eager to learn more."
+    },
+    "buttons": {
+        "download_cv": "Download CV"
+    },
+    "skills": {
+        "languages": "LANGUAGES",
+        "frameworks": "FRAMEWORKS",
+        "databases": "DATABASES"
+    }
+}

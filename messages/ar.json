@@ -1,0 +1,22 @@
+{
+    "logo_alt": "الشعار",
+    "nav": {
+        "services": "الخدمات",
+        "portfolio": "المعرض",
+        "about_me": "عني",
+        "contact": "تواصل معنا"
+    },
+    "intro": {
+        "greeting": "مرحبا",
+        "name": "أنا محمد مزهر",
+        "description": "أنا مبرمج لدي شغف بالتعلم والبقاء على اطلاع بأحدث التقنيات. لدي خبرة في [PHP native، Laravel framework، Next.js، React.js، Node.js، تحليل قواعد البيانات، MySQL]، ودائمًا أتطلع لتعلم المزيد."
+    },
+    "buttons": {
+        "download_cv": "تحميل السيرة الذاتية"
+    },
+    "skills": {
+        "languages": "اللغات",
+        "frameworks": "الأطر",
+        "databases": "قواعد البيانات"
+    }
+}
