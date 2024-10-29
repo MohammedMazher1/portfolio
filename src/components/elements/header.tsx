@@ -23,7 +23,7 @@ const Header = () => {
 
     return (
         <div className="min-h-screen bg-teal-50 text-teal-900 flex flex-col">
-            <header className="container mx-auto px-4 py-6 flex justify-between items-center">
+            <header className="container mx-auto px-8 py-6 flex justify-between items-center">
                 <div className="flex items-center space-x-2">
                     <Image src={"/images/logo.png"} alt={t('logo_alt')} width={50} height={50} />
                 </div>
