@@ -1,11 +1,10 @@
 import React from "react"
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import { Github, Link } from "lucide-react"
 import LinkHref from "next/link"
 import Image from "next/image"
 
-interface Project {
+export interface Project {
     title: string
     description: string
     images: string
@@ -17,9 +16,9 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
     return (
         <Card className="border-[#90E2D0] bg-transparent shadow-none w-full">
             <CardContent className="space-y-4 p-4 flex justify-center gap-6 md:justify-between flex-wrap items-center">
-                <div className="text-xl max-w-2xl">
-                    <h1 className="font-medium ">{project.title}</h1>
-                    <p className="text-primary/80 italic font-bold">{project.description}</p>
+                <div className="text-xl max-w-2xl space-y-2">
+                    <h1 className="font-bold border-b-2 border-[#90E2D0]">{project.title}</h1>
+                    <p className="text-primary/80 opacity-80 font-medium">{project.description}</p>
                 </div>
                 <Image src={`/images/${project.images}.png`} alt={project.title} width={350} height={300} className="rounded-lg w-60 p-2 md:w-96" />
             </CardContent>

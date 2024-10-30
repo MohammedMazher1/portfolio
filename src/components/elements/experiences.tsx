@@ -1,12 +1,11 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import Image from "next/image"
 
 const experiences = [
     {
         company: "ARAB WATE DOS",
         logo: "arab.png",
         role: "Full-Stack Developer",
-        period: "9, 2024 – Present",
+        period: "6, 2023 – 9,2024",
         description: "Built And Maintained Robust Web Applications Using Laravel For The Back End And React.Js For The Front End, Creating Seamless, User-Focused Applications.",
     },
     {

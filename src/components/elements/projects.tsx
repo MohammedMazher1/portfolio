@@ -5,6 +5,7 @@ import ProjectCard from '@/components/elements/projectCard'
 import { projects } from "@/components/projects"
 import { useLocale } from "next-intl"
 import { useState } from "react"
+import { Project } from "@/components/elements/projectCard"
 
 export default function ProjectsSection() {
     const locale = useLocale()
@@ -16,7 +17,7 @@ export default function ProjectsSection() {
             <div className="container mx-auto px-8 py-6">
                 <h2 className="text-3xl font-bold text-center text-primary mb-6">PROJECTS</h2>
                 <div className="flex flex-col gap-2">
-                    {projects[lang].slice(0, showAll ? projects[lang].length : 2).map((project: any, index: number) => (
+                    {projects[lang].slice(0, showAll ? projects[lang].length : 2).map((project: Project, index: number) => (
                         <ProjectCard key={index} project={project} />
                     ))}
                 </div>
