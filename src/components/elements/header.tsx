@@ -57,9 +57,9 @@ const Header = () => {
 
             <div className="fixed hidden md:block right-0 top-1/2 transform -translate-y-1/2 bg-teal-100 p-2 rounded-l-lg">
                 <div className="flex flex-col space-y-4">
-                    <Link href="#" className="text-teal-700 hover:text-teal-900"><Github /></Link>
-                    <Link href="#" className="text-teal-700 hover:text-teal-900"><Link2 /></Link>
-                    <Link href="#" className="text-teal-700 hover:text-teal-900"><Instagram /></Link>
+                    <Link href="https://github.com/MohammedMazher1" className="text-teal-700 hover:text-teal-900"><Github /></Link>
+                    <Link href="https://www.linkedin.com/in/mohammed-mazhar-468297261/" className="text-teal-700 hover:text-teal-900"><Link2 /></Link>
+                    <Link href="https://www.instagram.com/m.din6y/" className="text-teal-700 hover:text-teal-900"><Instagram /></Link>
                     <Link href="#" className="text-teal-700 hover:text-teal-900"><Facebook /></Link>
                 </div>
             </div>
