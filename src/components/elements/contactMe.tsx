@@ -14,7 +14,7 @@ export default function ContactMeSection() {
                             <CardHeader className="px-0 pt-0">
                                 <CardTitle className="text-3xl font-bold mb-6 text-green-800">CONTACT ME</CardTitle>
                             </CardHeader>
-                            <form className="space-y-4">
+                            <form className="space-y-4" id="contact">
                                 <div>
                                     <label htmlFor="fullName" className="block text-sm font-medium text-gray-700 mb-1">
                                         Full Name

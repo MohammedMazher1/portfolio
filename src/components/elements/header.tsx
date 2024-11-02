@@ -28,9 +28,9 @@ const Header = () => {
                     <Image src={"/images/logo.png"} alt={t('logo_alt')} width={50} height={50} />
                 </div>
                 <nav className="hidden md:flex gap-3 space-x-6">
-                    <a href="#services" className="text-teal-700 hover:text-teal-900">{t('nav.services')}</a>
+                    <a href="#skills" className="text-teal-700 hover:text-teal-900">{t('nav.skills')}</a>
                     <a href="#portfolio" className="text-teal-700 hover:text-teal-900">{t('nav.portfolio')}</a>
-                    <a href="#about" className="text-teal-700 hover:text-teal-900">{t('nav.about_me')}</a>
+                    <a href="#" className="text-teal-700 hover:text-teal-900">{t('nav.about_me')}</a>
                     <a href="#contact" className="text-teal-700 hover:text-teal-900">{t('nav.contact')}</a>
                 </nav>
                 <div className="flex items-center space-x-4">

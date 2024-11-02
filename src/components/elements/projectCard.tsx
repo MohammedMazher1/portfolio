@@ -14,7 +14,7 @@ export interface Project {
 
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
     return (
-        <Card className="border-[#90E2D0] bg-transparent shadow-none w-full">
+        <Card className="border-[#90E2D0] bg-transparent shadow-none w-full" id="portfolio">
             <CardContent className="space-y-4 p-4 flex justify-center gap-6 md:justify-between flex-wrap items-center">
                 <div className="text-xl max-w-2xl space-y-2">
                     <h1 className="font-bold border-b-2 border-[#90E2D0]">{project.title}</h1>

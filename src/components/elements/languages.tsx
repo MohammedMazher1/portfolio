@@ -49,7 +49,7 @@ export default function SkillsSection() {
                         ))}
                     </CardContent>
                 </Card>
-                <hr className="mt-3" />
+                <hr className="mt-3" id="skills" />
 
                 <Card className="bg-transparent border-0 shadow-none">
                     <CardHeader className="px-0">
