@@ -9,7 +9,7 @@ export const projects = {
         },
         {
             title: "شركة بن دول للصرافة",
-            description: "تم تصميم وتطوير الموقع الرسمي لشركة بن دول للصرافة ليقدم معلومات شاملة عن خدمات الشركة ويعزز التواصل مع العملاء.",
+            description: "تم تطوير الموقع الرسمي لشركة بن دول للصرافة ليقدم معلومات شاملة عن خدمات الشركة ويعزز التواصل مع العملاء.",
             images: "exchange",
             githubLink: "#",
             liveLink: "http://bindowal-001-site17.jtempurl.com/",
@@ -60,7 +60,7 @@ export const projects = {
         },
         {
             title: "Bin Dowal Exchange Company",
-            description: "Designed and developed the official website for Bin Dowal Exchange, providing comprehensive information about the company’s services and facilitating customer engagement.",
+            description: "developed the official website for Bin Dowal Exchange, providing comprehensive information about the company’s services and facilitating customer engagement.",
             images: "exchange",
             githubLink: "#",
             liveLink: "http://bindowal-001-site17.jtempurl.com/",
