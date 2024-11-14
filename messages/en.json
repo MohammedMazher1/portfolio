@@ -18,5 +18,12 @@
         "languages": "LANGUAGES",
         "frameworks": "FRAMEWORKS",
         "databases": "DATABASES"
+    },
+    "contact": {
+        "fullname": "Full Name",
+        "email": "Email",
+        "message": "Message",
+        "sendMessage": "Send Message",
+        "thanks": "Thank you for contacting me. 👋 I will respond to you via email shortly."
     }
 }
