@@ -39,7 +39,7 @@ export default function SkillsSection() {
             <div className="container mx-auto px-8 py-6">
                 <Card className="bg-transparent border-0 shadow-none">
                     <CardHeader className="px-0">
-                        <CardTitle className="text-2xl font-bold text-primary">
+                        <CardTitle className="text-2xl font-bold text-[#09443B]">
                             {t("languages")}
                         </CardTitle>
                     </CardHeader>
@@ -53,7 +53,7 @@ export default function SkillsSection() {
 
                 <Card className="bg-transparent border-0 shadow-none">
                     <CardHeader className="px-0">
-                        <CardTitle className="text-2xl font-bold text-primary">
+                        <CardTitle className="text-2xl font-bold text-[#09443B]">
                             {t("frameworks")}
                         </CardTitle>
                     </CardHeader>
@@ -67,7 +67,7 @@ export default function SkillsSection() {
 
                 <Card className="bg-transparent border-0 shadow-none">
                     <CardHeader className="px-0">
-                        <CardTitle className="text-2xl font-bold text-primary">
+                        <CardTitle className="text-2xl font-bold text-[#09443B]">
                             {t("databases")}
                         </CardTitle>
                     </CardHeader>

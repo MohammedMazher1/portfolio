@@ -17,7 +17,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
         <Card className="border-[#90E2D0] bg-transparent shadow-none w-full" id="portfolio">
             <CardContent className="space-y-4 p-4 flex justify-center gap-6 md:justify-between flex-wrap items-center">
                 <div className="text-xl max-w-2xl space-y-2">
-                    <h1 className="font-bold border-b-2 border-[#90E2D0]">{project.title}</h1>
+                    <h1 className="font-bold border-b-2 py-2 border-[#90E2D0]">{project.title}</h1>
                     <p className="text-primary/80 opacity-80 font-medium">{project.description}</p>
                 </div>
                 <Image src={`/images/${project.images}.png`} alt={project.title} width={350} height={300} className="rounded-lg w-60 p-2 md:w-96" />

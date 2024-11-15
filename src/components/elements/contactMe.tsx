@@ -4,25 +4,13 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Send } from "lucide-react"
-import { ChangeEvent, useState } from "react"
+import { useState } from "react"
 import { useTranslations } from "next-intl";
-type FormData = {
-    fullName: string,
-    email: string,
-    message: string
-}
+
 export default function ContactMeSection() {
-    const [formData, setFormData] = useState({ fullName: '', email: '', message: '' })
     const [isSubmitted, setIsSubmitted] = useState(false)
     const t = useTranslations("contact")
-    const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-        const { name, value } = e.target;
-        setFormData((prevData: FormData) => ({
-            ...prevData,  // Spread previous state
-            [name]: value  // Update the specific field
-        }));
-        console.log(formData)
-    }
+
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         setIsSubmitted(true)

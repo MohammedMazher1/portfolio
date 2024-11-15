@@ -19,6 +19,9 @@
         "frameworks": "الأطر",
         "databases": "قواعد البيانات"
     },
+    "projects": {
+        "title": "المشاريع"
+    },
     "contact": {
         "fullname": "الاسم الكامل",
         "email": "البريد الإلكتروني",

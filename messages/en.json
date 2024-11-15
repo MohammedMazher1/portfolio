@@ -19,6 +19,9 @@
         "frameworks": "FRAMEWORKS",
         "databases": "DATABASES"
     },
+    "projects": {
+        "title": "PROJECTS"
+    },
     "contact": {
         "fullname": "Full Name",
         "email": "Email",
