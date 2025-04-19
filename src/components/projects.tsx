@@ -15,6 +15,13 @@ export const projects = {
             liveLink: "http://bindowal-001-site17.jtempurl.com/",
         },
         {
+            title: "نفس - منصة تسويقية للأعمال المنزلية",
+            description: "تصميم وتطوير لوحة تحكم منصة نفس المتخصصة في تمكين وتسويق الأعمال المنزلية والحرفيين المحليين.",
+            images: "nafs",
+            githubLink: "https://github.com/nafs-platform/nafs-web",
+            liveLink: "https://nafs-web-test.vercel.app/login",
+        },
+        {
             title: "فودستيشن",
             description: "منصة تساعد العملاء في البحث عن المطاعم القريبة، عرض القوائم، وطلب الوجبات بسهولة، تم تطويرها باستخدام ASP.NET MVC وتطبيق Flutter للهاتف.",
             images: "foodstation",
@@ -48,7 +55,7 @@ export const projects = {
             images: "billCollection",
             githubLink: "https://github.com/MohammedMazher1/Tester",
             liveLink: "#",
-        },
+        }
     ],
     en: [
         {
@@ -64,6 +71,13 @@ export const projects = {
             images: "exchange",
             githubLink: "#",
             liveLink: "http://bindowal-001-site17.jtempurl.com/",
+        },
+        {
+            title: "Nafs - Marketing Platform for Home Businesses",
+            description: "Designed and developed the dashboard for Nafs, a specialized marketing platform that empowers and promotes home-based businesses and local artisans.",
+            images: "nafs",
+            githubLink: "https://github.com/MohammedMazher1",
+            liveLink: "https://nafs-web-test.vercel.app/login"
         },
         {
             title: "FOODSTATION",
@@ -99,6 +113,6 @@ export const projects = {
             images: "billCollection",
             githubLink: "https://github.com/MohammedMazher1/Tester",
             liveLink: "#",
-        },
+        }
     ]
 };
